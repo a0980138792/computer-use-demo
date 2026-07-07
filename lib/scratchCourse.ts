@@ -10,9 +10,9 @@ export type WeeklyLesson = {
 
 export const courseProfile = {
   title: "神乎其技",
-  schoolYear: "114學年度",
+  schoolYear: "115學年度",
   grade: "五年級",
-  teacher: "顏堉哲",
+  teacher: "黃錦隆",
   cadence: "每週1節",
   vision: "結合 e 化科技與多元創意教學，促進學生多元發展。",
   goal: "讓學生能夠利用 Scratch 設計完整遊戲，並培養邏輯思考能力。",
