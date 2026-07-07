@@ -13,49 +13,49 @@ export const navigationItems = [
   {
     label: "課程首頁",
     path: "/",
-    description: "神乎其技 Scratch 課程總覽與每週任務。",
+    description: "AI好幫手課程總覽、學期進度與成果任務。",
     icon: Sparkles
   },
   {
-    label: "作品任務",
-    path: "/exam-expert",
-    description: "整理學生要完成、上傳與展示的 Scratch 作品。",
+    label: "學習任務",
+    path: "/tasks",
+    description: "依週次整理Micro-bit、雲端工具、影音與簡報任務。",
     icon: ClipboardList
   },
   {
     label: "教學進度",
-    path: "/lesson-planner",
-    description: "依學期週次查看課程內容、學習目標與活動安排。",
+    path: "/planner",
+    description: "檢視第一學期與第二學期的教學節奏。",
     icon: BookOpen
   },
   {
-    label: "Scratch 積木",
-    path: "/vocabulary-pro",
-    description: "練習事件、動作、外觀、聲音、偵測、變數與清單。",
+    label: "Micro-bit",
+    path: "/microbit",
+    description: "程式積木、感測器與互動作品練習。",
     icon: GraduationCap
   },
   {
-    label: "互評回饋",
-    path: "/flashcards",
-    description: "引導學生觀摩作品、留言建議並修正自己的專題。",
+    label: "雲端工具",
+    path: "/cloud-tools",
+    description: "地圖、氣象、交通、表單與資料整理工具。",
     icon: Layers
   },
   {
-    label: "課程文件",
+    label: "教師文件",
     path: "/teacher-documents",
-    description: "保留學校願景、核心素養、課程目標與課程設計理念。",
+    description: "課程目標、核心素養、評量與教材資源整理。",
     icon: FileText
   },
   {
-    label: "學習紀錄",
+    label: "成果分析",
     path: "/analytics",
-    description: "追蹤任務完成、作品上傳與同儕互評狀態。",
+    description: "追蹤作品完成度與學習成果回饋。",
     icon: BarChart3
   },
   {
     label: "設定",
     path: "/settings",
-    description: "調整課程平台偏好與未來整合設定。",
+    description: "調整課程平台顯示與班級設定。",
     icon: Settings
   }
 ] as const;

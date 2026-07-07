@@ -1,5 +1,4 @@
-import { Outlet } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { Sidebar } from "@/components/Sidebar";
 import { navigationItems } from "@/lib/navigation";
 
@@ -12,8 +11,8 @@ export function AppLayout() {
           <header className="sticky top-0 z-20 border-b border-ink/10 bg-white/90 px-4 py-3 backdrop-blur lg:hidden">
             <div className="flex items-center justify-between gap-4">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-moss">Scratch Course</p>
-                <h1 className="text-lg font-bold">神乎其技</h1>
+                <p className="text-xs font-semibold uppercase tracking-wide text-moss">AI Learning</p>
+                <h1 className="text-lg font-bold">AI好幫手</h1>
               </div>
             </div>
             <nav className="mt-3 flex gap-2 overflow-x-auto pb-1">

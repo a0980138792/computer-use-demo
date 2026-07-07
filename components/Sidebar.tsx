@@ -5,8 +5,9 @@ export function Sidebar() {
   return (
     <aside className="hidden w-72 shrink-0 border-r border-ink/10 bg-white/80 px-4 py-5 shadow-sm lg:block">
       <div className="mb-8 px-2">
-        <p className="text-sm font-semibold uppercase tracking-wide text-moss">Scratch Course</p>
-        <h1 className="mt-2 text-2xl font-bold">神乎其技</h1>
+        <p className="text-sm font-semibold uppercase tracking-wide text-moss">AI Learning</p>
+        <h1 className="mt-2 text-2xl font-bold">AI好幫手</h1>
+        <p className="mt-2 text-sm leading-6 text-ink/60">六年級資訊科技彈性學習平台</p>
       </div>
       <nav className="space-y-1">
         {navigationItems.map((item) => (
