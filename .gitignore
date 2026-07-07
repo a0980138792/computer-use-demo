@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.pnpm-store/
+*.log
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+
+# Local Codex/teaching workspace helpers that are not part of the public site.
+.agents/
+.tmp-organizer/
+agents/
+assets/
+docs/
+hooks/
+scripts/
+services/
+skills/
+templates/
+file-organizer-*.csv
